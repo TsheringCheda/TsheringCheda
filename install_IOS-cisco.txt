@@ -1,0 +1,13 @@
+
+steps to install IOS:
+
+1. copy usbflash0:c1000-universalk9-mz.152-7.E6.bin flash: ( user mode)
+2. boot system flash:c1000-universalk9-mz.152-7.E6.bin ( config mode)
+3. save and reboot the switch ( back to user mode)
+
+
+
+( config mode)
+service unsupported-transceiver
+no errdisable detect cause gbic-invalid
+
